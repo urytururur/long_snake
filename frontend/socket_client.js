@@ -2,7 +2,7 @@
 //socket receiving endpoints
 var socket = io();
 
-socket.on('test', (message) {
+socket.on('test', function(message) {
   console.log(message)
 });
 //--------
