@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <link rel="stylesheet" type="text/css" href="style.css">
+    <title>L†ng Orm</title>
+  </head>
+  <body>
+
+    <div id="home_page">
+      <input id="username" placeholder="Username..." value="a">
+      <button onClick="pre_joinGame()">Join Game!</button>
+    </div>
+
+    <div id="game_page">
+      <canvas id="tutorial" width="1200" height="800"></canvas>
+      <button id="start_game_button" onClick="pre_startGame()">Start Game</button>
+    </div>
+
+    <script src="/socket.io/socket.io.js"></script>
+    <script src="socket_client.js" type="application/javascript"></script>
+  </body>
+</html>
